@@ -1,0 +1,22 @@
+{
+  "name": "dizhang-library",
+  "version": "1.0.0",
+  "description": "A sample TypeScript library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Di Zhang",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.8",
+    "@types/node": "^20.9.0",
+    "jest": "^29.7.0",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
